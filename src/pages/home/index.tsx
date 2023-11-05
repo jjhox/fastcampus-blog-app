@@ -36,9 +36,9 @@ export default function Home(){
             ))}
         </div>
         <footer>
-            <div>1</div>
-            <div>2</div>
-            <div>3</div>
+            <Link to="/posts/new">글쓰기</Link>
+            <Link to="/posts">게시글</Link>
+            <Link to="/profile">프로필</Link>
         </footer>
     </div>)
 }
